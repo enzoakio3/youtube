@@ -1,0 +1,57 @@
+.sidebar {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+
+  width: 72px;
+
+  background-color: white;
+}
+.sidebar-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  width: 100%;
+
+  border: none;
+  background-color: transparent;
+
+  cursor:pointer;
+}
+.sidebar-button:hover{
+  background-color: rgb(238, 238, 238);
+}
+.sidebar-button:active{
+  background-color: rgb(222, 222, 222);
+}
+.sidebar-button-text{
+  font-size: 10px;
+}
+.home-icon{
+  height: 24px;
+  margin-bottom: 6px;
+}
+.explore-icon{
+  height: 24px;
+  margin-bottom: 6px;
+}
+.subscriptions-icon{
+  height: 24px;
+  margin-bottom: 6px;
+}
+.originals-icon{
+  height: 24px;
+  margin-bottom: 6px;
+}
+.youtube-music-icon{
+  height: 24px;
+  margin-bottom: 6px;
+}
+.library-icon{
+  height: 24px;
+  margin-bottom: 6px;
+}
